@@ -1,7 +1,7 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
 
-namespace Gobi.Chain.Core.Mediators.Handlers
+namespace Gobi.Chain.Mediator.Core.Handlers
 {
     public class DelegateRequestHandler<TRequest, TResponse> : IRequestHandler<TRequest, TResponse>
         where TRequest : IRequest<TResponse>

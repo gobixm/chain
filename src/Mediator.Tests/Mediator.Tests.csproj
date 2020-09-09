@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <AssemblyName>Gobi.Chain.Core.Tests</AssemblyName>
-    <RootNamespace>Gobi.Chain.Core.Tests</RootNamespace>
+    <AssemblyName>Gobi.Chain.Mediators.Tests</AssemblyName>
+    <RootNamespace>Gobi.Chain.Mediators.Tests</RootNamespace>
     <IsPackable>false</IsPackable>
   </PropertyGroup>
 
@@ -16,7 +16,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Core\Core.csproj" />
+    <ProjectReference Include="..\Mediator.Core\Mediator.Core.csproj" />
   </ItemGroup>
-
 </Project>

@@ -1,8 +1,8 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
-using Gobi.Chain.Core.Mediators.Resolvers;
+using Gobi.Chain.Mediator.Core.Resolvers;
 
-namespace Gobi.Chain.Core.Mediators.Handlers
+namespace Gobi.Chain.Mediator.Core.Handlers
 {
     internal abstract class RequestHandlerWrapperBase
     {

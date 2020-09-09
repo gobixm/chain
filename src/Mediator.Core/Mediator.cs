@@ -3,12 +3,12 @@ using System.Collections.Concurrent;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Gobi.Chain.Core.Mediators.Configurations;
-using Gobi.Chain.Core.Mediators.Handlers;
-using Gobi.Chain.Core.Mediators.Middlewares;
-using Gobi.Chain.Core.Mediators.Resolvers;
+using Gobi.Chain.Mediator.Core.Configurations;
+using Gobi.Chain.Mediator.Core.Handlers;
+using Gobi.Chain.Mediator.Core.Middlewares;
+using Gobi.Chain.Mediator.Core.Resolvers;
 
-namespace Gobi.Chain.Core.Mediators
+namespace Gobi.Chain.Mediator.Core
 {
     public sealed class Mediator<T> where T : new()
     {
@@ -32,7 +32,6 @@ namespace Gobi.Chain.Core.Mediators
                     typeof(RequestRequestHandlerWrapper<,>).MakeGenericType(requestType, typeof(TResponse))));
 
             T context = new T();
-            object response = null;
             return await _configuration.MiddlewareFactories
                 .Reverse()
                 .Aggregate<Func<IMiddleware<T>>, Func<IRequest<TResponse>, Task<TResponse>>>(

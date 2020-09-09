@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using Gobi.Chain.Core.Mediators.Middlewares;
+using Gobi.Chain.Mediator.Core.Middlewares;
 
-namespace Gobi.Chain.Core.Mediators.Configurations
+namespace Gobi.Chain.Mediator.Core.Configurations
 {
     public sealed class MediatorConfiguration<T> where T : new()
     {

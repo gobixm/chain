@@ -1,4 +1,4 @@
-﻿namespace Gobi.Chain.Core.Mediators
+﻿namespace Gobi.Chain.Mediator.Core
 {
     /// <summary>
     /// Request interface.

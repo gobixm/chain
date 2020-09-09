@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
-using Gobi.Chain.Core.Mediators.Resolvers;
+using Gobi.Chain.Mediator.Core.Resolvers;
 
-namespace Gobi.Chain.Core.Tests.Mediators.Helpers
+namespace Gobi.Chain.Mediators.Tests.Helpers
 {
     public sealed class StaticServiceFactory : IServiceFactory
     {

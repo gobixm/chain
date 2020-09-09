@@ -1,4 +1,4 @@
-﻿namespace Gobi.Chain.Core.Mediators.Resolvers
+﻿namespace Gobi.Chain.Mediator.Core.Resolvers
 {
     public interface IServiceFactory
     {

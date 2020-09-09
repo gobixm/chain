@@ -2,13 +2,13 @@
 using System.Threading;
 using System.Threading.Tasks;
 using FluentAssertions;
-using Gobi.Chain.Core.Mediators;
-using Gobi.Chain.Core.Mediators.Handlers;
-using Gobi.Chain.Core.Mediators.Middlewares;
-using Gobi.Chain.Core.Tests.Mediators.Helpers;
+using Gobi.Chain.Mediator.Core;
+using Gobi.Chain.Mediator.Core.Handlers;
+using Gobi.Chain.Mediator.Core.Middlewares;
+using Gobi.Chain.Mediators.Tests.Helpers;
 using Xunit;
 
-namespace Gobi.Chain.Core.Tests.Mediators
+namespace Gobi.Chain.Mediators.Tests
 {
     public class ChainMediatorTests
     {

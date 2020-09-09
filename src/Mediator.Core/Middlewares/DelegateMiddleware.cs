@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Gobi.Chain.Core.Mediators.Middlewares
+namespace Gobi.Chain.Mediator.Core.Middlewares
 {
     public sealed class DelegateMiddleware<T> : IMiddleware<T> where T : new()
     {

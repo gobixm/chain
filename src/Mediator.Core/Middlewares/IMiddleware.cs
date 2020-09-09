@@ -1,7 +1,7 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
 
-namespace Gobi.Chain.Core.Mediators.Middlewares
+namespace Gobi.Chain.Mediator.Core.Middlewares
 {
     public delegate Task NextMiddlewareDelegate();
 

@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <AssemblyName>Gobi.Chain.Core</AssemblyName>
-    <RootNamespace>Gobi.Chain.Core</RootNamespace>
+    <AssemblyName>Gobi.Chain.Mediator.Core</AssemblyName>
+    <RootNamespace>Gobi.Chain.Mediator.Core</RootNamespace>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
 
